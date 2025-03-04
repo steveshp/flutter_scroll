@@ -46,3 +46,19 @@ flutter run
 - 앱을 실행하면 자동으로 스크롤이 시작됩니다
 - 화면을 터치하고 있으면 스크롤이 일시 정지됩니다
 - 앱바의 재생/일시정지 버튼으로 자동 스크롤을 제어할 수 있습니다
+
+## 앱 심사용 개인정보 처리방침 설정 방법
+
+1. docs 디렉토리에 privacy-policy.html 파일을 생성합니다.
+
+2. GitHub repository의 Settings에서:
+   - 상단의 `⚙️ Settings` 클릭
+   - Source를 `Deploy from a branch` 선택
+   - Branch를 `master`, 폴더를 `/docs` 선택
+   - Save 클릭
+
+3. 몇 분 후 다음 URL에서 개인정보 처리방침 확인 가능:
+   - https://[GitHub사용자명].github.io/flutter_scroll/privacy-policy.html
+   - 예: <https://steveshp.github.io/flutter_scroll/privacy-policy.html>
+
+이 URL을 앱 스토어 제출 시 개인정보 처리방침 URL로 사용하면 됩니다.
